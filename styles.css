@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 960px;
+    width: 960px;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.grid {
+    overflow: hidden;
+    position: relative;
+}
+
+grid:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
